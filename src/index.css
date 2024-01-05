@@ -1,9 +1,19 @@
+/* Importing Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+/* Importing Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer utilities {
 	.padding {
-		@apply sm:px-16 px-8 sm:py-24 py-12;
+		@apply sm:px-16 px-8 sm:py-24 py-12
+		w-full lg:max-w-2xl;
+	}
+
+	.long-text {
+		@apply font-montserrat text-gray-700 text-xl leading-8;
 	}
 }
