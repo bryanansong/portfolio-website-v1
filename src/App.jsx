@@ -1,5 +1,6 @@
 import Nav from "./sections/Nav";
 import Description from "./sections/Description";
+import Experience from "./sections/Experience";
 
 // .padding {
 // 		@apply sm:px-16 px-8 sm:py-24 py-12 w-full lg:max-w-2xl;
@@ -15,8 +16,8 @@ export default function App() {
 				<section className="padding ">
 					<Description />
 				</section>
-				<section className="padding bg-green-300">
-					Experience
+				<section className="padding ">
+					<Experience />
 				</section>
 				<section className="padding bg-purple-600">
 					Projects
