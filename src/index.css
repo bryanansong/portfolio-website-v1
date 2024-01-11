@@ -9,7 +9,7 @@
 
 @layer utilities {
 	.padding {
-		@apply sm:px-16 px-8 pt-6 max-sm:py-12 w-full lg:max-w-2xl;
+		@apply sm:px-16 px-8 pt-6 max-sm:py-12 w-full lg:max-w-4xl;
 	}
 
 	.heading-text {

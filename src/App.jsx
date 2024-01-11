@@ -6,8 +6,8 @@ import Footer from "./sections/Footer";
 
 export default function App() {
 	return (
-		<main className="relative flex flex-col justify-center items-center">
-			<div className="w-full max-w-2xl">
+		<main className=" flex flex-col justify-center items-center">
+			<div className="w-full max-w-4xl">
 				<section className="padding">
 					<Nav />
 				</section>

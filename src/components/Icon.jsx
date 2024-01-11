@@ -6,7 +6,10 @@ const Icon = ({ name, icon, link }) => {
 				data-tooltip-style="light"
 				type="button"
 			>
-				<a href={link}>
+				<a
+					href={link}
+					target="_blank"
+				>
 					<img
 						src={icon}
 						alt={name}
