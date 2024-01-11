@@ -9,11 +9,15 @@
 
 @layer utilities {
 	.padding {
-		@apply sm:px-16 px-8 sm:py-24 py-12
-		w-full lg:max-w-2xl;
+		@apply sm:px-16 px-8 pt-6 max-sm:py-12 w-full lg:max-w-2xl;
 	}
 
-	.long-text {
-		@apply font-montserrat text-gray-700 text-xl leading-8;
+	.heading-text {
+		@apply font-montserrat text-3xl text-gray-800 font-semibold tracking-wider
+		mb-4;
+	}
+
+	.info-text {
+		@apply font-montserrat text-gray-700 leading-8;
 	}
 }
