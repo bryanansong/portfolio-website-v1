@@ -28,12 +28,12 @@ export const navLinks = [
 	},
 ];
 
-export const description = [
-	"Lorem ipsum dolor sit amet, consectetur adipiscing elit \
-	Sed vitae nisi eget nunc aliquam aliquet. Donec auctor, nisl \
-	eget aliquam aliquet, nisl nisl aliquam nisi, nec aliquam nisi \
-	nisi nec",
-];
+export const description =
+	"🚀 CS student at UVA passionate about coding, fitness, and tech innovation.\n\
+	💻 Currently mastering LeetCode, building project, and lifting at the gym.\n\
+	🏋🏾‍♂️ I make fitness during my spare time. IG/Tiktok: @LiftsWithBryan.\n\
+	🔗 Let's connect, collaborate, and shape the future together!\n\
+	Feel free to say Hi!👋🏾";
 
 export const experiences = [];
 
