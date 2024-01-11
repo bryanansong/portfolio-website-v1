@@ -12,7 +12,7 @@ export default function App() {
 					<Nav />
 				</section>
 				<section className="padding bg-yellow-300">
-					Not Description
+					Description
 				</section>
 				<section className="padding bg-green-300">
 					Experience

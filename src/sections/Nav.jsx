@@ -21,7 +21,7 @@ const Nav = () => {
 
 				<Button
 					label="Projects"
-					link="#projects"
+					href="#projects"
 				/>
 			</div>
 		</header>
