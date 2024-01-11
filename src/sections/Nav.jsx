@@ -4,7 +4,7 @@ import { navLinks } from "../constants/index";
 
 const Nav = () => {
 	return (
-		<header className=" mt-[-30px]">
+		<header className="">
 			<div
 				className="flex items-center flex-1 justify-between
 				py-4"
