@@ -64,4 +64,36 @@ export const experiences = [
 
 export const skills = [];
 
-export const projects = [];
+export const projects = [
+	{
+		title: "WhatsApp Clone",
+		tools: "JavaScript | React Native | AWS Amplify",
+		github: "https://github.com/bryanansong/Whatsapp-Clone",
+		description:
+			"• Developed a WhatsApp Clone using React Native with secure authentication using AWS Cognito for user privacy.\
+• Implemented a responsive one-to-one chat screen with messaging features, utilizing Amazon Web Services DynamoDB and GraphQL for efficient data storage and retrieval.",
+	},
+	{
+		title: "Picture Script",
+		tools: "React | JavaScript | HTML | CSS",
+		github: "https://github.com/bryanansong/Picture-Script",
+		description:
+			"• Developed a website using React, to enable real-time image generation with OpenAI's DALL-E API based on prompts.\
+• Demonstrated strong frontend development skills, creative problem-solving, and integration of external APIs for a user-friendly image generation experience.\
+",
+	},
+	{
+		title: "PhotoFunktastic",
+		tools: "React | JavaScript | HTML | CSS",
+		github: "https://github.com/bryanansong/photofunktastic",
+		description:
+			"• Developed a user-friendly web application, PhotoFunktastic, using React, enabling users to effortlessly enhance and manipulate photos in real-time through an intuitive slider-based interface.\
+• Implemented advanced image processing techniques, including brightness, saturation, sepia, hue rotation, contrast, and grayscale adjustments, providing users with a versatile tool for photo enhancement.",
+	},
+	// {
+	// 	title: "",
+	// 	tools: "",
+	// 	github: "",
+	// 	description: "",
+	// },
+];

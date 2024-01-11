@@ -17,6 +17,10 @@
 		mb-4;
 	}
 
+	.sub-heading {
+		@apply font-montserrat text-lg text-gray-800 font-semibold tracking-wider;
+	}
+
 	.info-text {
 		@apply font-montserrat text-gray-700 leading-8;
 	}
