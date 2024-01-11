@@ -97,3 +97,5 @@ export const projects = [
 	// 	description: "",
 	// },
 ];
+
+export const lastUpdated = "January 2024";
