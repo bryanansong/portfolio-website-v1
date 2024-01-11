@@ -8,7 +8,7 @@ const Experience = () => {
 				{experiences.map((experience) => {
 					return (
 						<div className="mb-4">
-							<div className="text-lg font-semibold font-montserrat">
+							<div className="sub-heading">
 								{experience.title}
 							</div>
 							<div className="flex justify-between">
