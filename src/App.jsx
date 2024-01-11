@@ -2,6 +2,7 @@ import Nav from "./sections/Nav";
 import Description from "./sections/Description";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
+import Footer from "./sections/Footer";
 
 export default function App() {
 	return (
@@ -19,8 +20,8 @@ export default function App() {
 				<section className="padding ">
 					<Projects />
 				</section>
-				<section className="padding bg-slate-700">
-					Footer
+				<section className="padding">
+					<Footer />
 				</section>
 			</div>
 		</main>
