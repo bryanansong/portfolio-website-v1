@@ -14,7 +14,7 @@ export const navLinks = [
 	{
 		name: "spotify",
 		icon: musicSolid,
-		link: "/",
+		link: "https://open.spotify.com/user/q3ico0bo764542z9uwtmuzwh8",
 	},
 	{
 		name: "github",
