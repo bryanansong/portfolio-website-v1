@@ -66,6 +66,15 @@ export const skills = [];
 
 export const projects = [
 	{
+		title: "Water Pal",
+		tools: "React Native | Tailwind CSS | Expo Go | AWS Amplify",
+		github: "https://github.com/bryanansong/Water-Pal",
+		description:
+			"•	Designed a mobile app with an intuitive UI to be your daily hydration companion, ensuring you meet your water intake goals effortlessly.\
+			•	Utilized animations to gamify the experience, encouraging users to stay hydrated by achieving daily targets.\
+			•	Currently working on implementing a backend with AWS Amplify to leverage its authentication services and real-time updates using GraphQL subscriptions.",
+	},
+	{
 		title: "WhatsApp Clone",
 		tools: "JavaScript | React Native | AWS Amplify",
 		github: "https://github.com/bryanansong/Whatsapp-Clone",
